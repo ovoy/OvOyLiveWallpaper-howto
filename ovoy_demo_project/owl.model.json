@@ -1,0 +1,23 @@
+{
+	"type":"spine",
+    "atlas":"owl_F_S.atlas",
+    "jason":"owl_F_S.json",
+    "skin":"default",
+    "background":"background.png",
+    "locatearea":["50", "210", "900", "512"],
+    "defaultRight":false,
+    "spine_height":"1157",
+    "spine_actor_screen_ratio":"0.2",
+    "IWP_STATE_HAPPY":["Wonder"],
+    "IWP_STATE_TALKING":["Idle", "Hand-wave"],
+    "IWP_STATE_IDLE":["Idle"],
+    "IWP_STATE_WALKING":["L_Walk"],
+    "IWP_STATE_SAD_BORING":[],
+    "IWP_STATE_EXCITING":[],
+    "IWP_STATE_GOT_NOTIFY":["Hand-wave"],
+    "IWP_STATE_RUNNING":["L_Fly"],
+    "IWP_STATE_DIG":["L_Peck"],
+    "CAMPAIGN_LIKE":["Hand-wave"],
+    "CAMPAIGN_DISLIKE":["L_Peck"],
+    "CAMPAIGN_COMMENT":["R_Walk"]
+}
