@@ -1,25 +1,25 @@
-#HOW to make a OvOy Live Wallpaper
+# HOW to make a OvOy Live Wallpaper
 
-##Setup and Prerequisites
-1. Live2d/Spine anime Editor
-2. Download OvOy Live Wallpaper from Google play (version 0.853.* or above)
+## Setup and Prerequisites
+1. Live2d/Spine anime Editor   
+2. Download OvOy Live Wallpaper from Google play (version 0.853.* or above)  
 
 ##Prepare your project folder
 Your project folder should contain below files.
 
-1. Spine asset.
-Export your spine asset with json format including three files:
-xxx.atlas
-xxx.json
-xxx.png
+1. Spine asset.  
+Export your spine asset with json format including three files:  
+xxx.atlas  
+xxx.json   
+xxx.png    
 
-NOTE1: Please refer to [HOW-to export your spine asset]
-NOTE2: Live2d (TBD)
+NOTE1: Please refer to [HOW-to export your spine asset]  
+NOTE2: Live2d (TBD)  
+ 
 
-
-2. [My_Model_name].model.json
-Configure the properties in model.json
-'''
+2. [My_Model_name].model.json  
+Configure the properties in model.json  
+```
 {
 	"type":"spine",
     "atlas":"owl_F_S.atlas",  // your spine atlas file
@@ -49,11 +49,22 @@ Configure the properties in model.json
     "CAMPAIGN_COMMENT":["R_Walk"]
 }
 
-'''
+```
 
 3. edit behavior.lua to custom your behavior of Actor
 4. provide the background image file which is defined in #2
 5. provide dialog image
 
 
-##HOW-to export your spine asset
+## HOW-to export your spine asset
+
+## Pack your project file and test
+1. zip your project folder. ex:ovoy_demo_project.zip
+2. push ovoy_demo_project.zip to your phone external storage.
+ex:
+```
+adb push ovoy_demo_project.zip /sdcard/Download
+```
+3. Launch OvOy App and enter customs mode(自訂角色模式)
+
+
