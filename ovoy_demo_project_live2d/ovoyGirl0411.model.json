@@ -1,0 +1,22 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "ovoyGirl0411",
+	"model": "ovoyGirl0411.moc",
+	"textures": [
+		"ovoyGirl0411.1024/texture_00.png"
+	],
+	"hit_areas":
+	[
+		{"name":"head", "id":"D_REF.PT_head"},
+		{"name":"chest", "id":"D_REF.PT_chest"}
+	],
+	"motions":{
+		"idle":[
+		{"file":"ovoyGirl Idle.mtn"}
+		],
+		"tap":[
+		{"file":"ovoyGirl no.mtn"}
+		]
+	},
+	 "physics": "ovoyGirl0411_physics.json"
+}
